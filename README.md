@@ -4,7 +4,7 @@
 To kickstart my (hopefully your too) projects, `compass watch` and `cake watch`. Throw in some coding magic and change the world!
 
 `git clone git@github.com:felixlaumon/kickstart.git`
-`git remote remove origin`
+`git remote rm origin`
 `git remote add [your git repo address]`
 `git push -u origin master`
 
