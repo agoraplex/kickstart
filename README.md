@@ -2,3 +2,23 @@
 
 
 To kickstart my (hopefully your too) projects, `compass watch` and `cake watch`. Throw in some coding magic and change the world!
+
+## Requirement
+
+Uglify-js
+`npm install uglify-js`
+
+Compass
+`gem install compass`
+
+HTML5 Boilerplate
+`gem install html5-boilerplate`
+
+Optionally, growl
+`npm install growl`
+
+## Usage
+
+Add coffee-script files to `coffee-script/` also to the array of `prodCoffeeFiles` in `Cakefile`. Then run `cake watch` or `cake build`
+
+Add CSS style to `_page.scss` then run `compass watch` or `compass compile`
