@@ -56,7 +56,7 @@ task 'build', 'Build a single JavaScript file from prod files', ->
                 message = "Compiled #{prodTargetJsFile}"
                 util.log message
                 displayNotification message
-                fs.unlink prodTargetCoffeeFile, (err) -> handleError(err) if err
+                # fs.unlink prodTargetCoffeeFile, (err) -> handleError(err) if err
                 invoke 'uglify'                
 
 task 'uglify', 'Minify and obfuscate', ->
